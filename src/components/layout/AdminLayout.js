@@ -33,7 +33,6 @@ const menuItems = [
   { text: '대시보드', href: '/', icon: <DashboardIcon /> },
   { text: '회사 관리', href: '/admin/companies', icon: <BusinessIcon /> },
   { text: '설문셋 관리', href: '/admin/surveys', icon: <AssignmentIcon /> },
-  { text: '문항 관리', href: '/admin/questions', icon: <QuestionAnswerIcon /> },
   { text: '설문 배포', href: '/admin/distribute', icon: <ShareIcon /> },
   { text: '배포 결과', href: '/admin/results', icon: <BarChartIcon /> },
   { text: '설문 분석', href: '/results', icon: <AssessmentIcon /> },
