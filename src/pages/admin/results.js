@@ -1043,7 +1043,7 @@ export default function AdminResultsPage() {
                     <Tooltip title="결과 보기">
                       <IconButton
                         component={Link}
-                        href={`/results/${distribution.id}`}
+                        href={`/results/dist/items?distributionId=${distribution.id}`}
                         size="small"
                       >
                         <VisibilityIcon />
